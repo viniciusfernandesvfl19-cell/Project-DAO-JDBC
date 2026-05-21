@@ -16,12 +16,15 @@ public class DB {
     public static Connection getConnection() {
         if (conn == null) {
             try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
                 Properties props = loadProperties();
                 String url = props.getProperty("dburl");
                 conn = DriverManager.getConnection(url, props);
             }
             catch (SQLException e) {
                 throw new DbException(e.getMessage());
+            } catch (ClassNotFoundException e) {
+                throw new RuntimeException(e);
             }
         }
         return conn;
@@ -41,10 +44,16 @@ public class DB {
         try (FileInputStream fs = new FileInputStream("db.properties")) {
             Properties props = new Properties();
             props.load(fs);
+            
+            System.out.println("=== DIAGNÓSTICO DO ARQUIVO ===");
+            System.out.println("URL lida do arquivo: " + props.getProperty("dburl"));
+            System.out.println("User lido do arquivo: " + props.getProperty("user"));
+            System.out.println("=============================");
+
             return props;
         }
         catch (IOException e) {
-            throw new DbException(e.getMessage());
+            throw new DbException("ERRO CRÍTICO: O Java sequer achou o arquivo db.properties! " + e.getMessage());
         }
     }
 
