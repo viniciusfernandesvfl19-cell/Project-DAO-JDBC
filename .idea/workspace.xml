@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d791c45-dca1-40b5-a2c2-935d3c0223a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mySQLConnector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dao-jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dao-jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelDAO/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/DAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelDAO/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/DepartmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelDAO/SellerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/SellerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelDAO/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/impl/SellerDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelEntities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelEntities/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelEntities/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelEntities/Seller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +29,7 @@
     "Application.Program.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
