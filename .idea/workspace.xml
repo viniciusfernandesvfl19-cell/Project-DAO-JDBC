@@ -7,7 +7,6 @@
     <list default="true" id="5d791c45-dca1-40b5-a2c2-935d3c0223a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelDAO/SellerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/SellerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelDAO/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelDAO/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
